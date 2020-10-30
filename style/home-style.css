@@ -1,0 +1,236 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	top: 0;
+}
+.header-left{
+	padding: 3rem 0;
+	margin-left: 10rem;
+	font-size: 27px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Playfair Display', serif;
+	float: left;
+	color: #0d1138;
+}
+.header-right{
+	padding: 3.2rem 0;
+	font-size: 27px;
+	font-family: 'Source Serif Pro', serif;
+	float: right;
+}
+.header-right a{
+	display: inline-block;
+	margin-right: 4rem;
+	color: white;
+	text-decoration: none;
+}
+.top-wrapper{
+	background-image: url("../images/home-page.png");
+	background-repeat: no-repeat;
+	background-size: 1740px 740px;
+	height: 700px;
+}
+.welcome{
+	display: block;
+	font-family: 'Work Sans', sans-serif;
+	font-size:50px;
+	letter-spacing:1px;
+	clear: both;
+	margin-left: 10rem;
+	padding-top: 2rem;
+	color: white;
+}
+.luxury{
+	display: block;
+	font-family: 'Playfair Display', serif;
+	font-size: 100px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin-left: 10rem;
+}
+.hotels{
+	display: block;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	letter-spacing:3px;
+	margin-left: 10rem;
+	color: white;
+}
+.top-wrapper p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	letter-spacing: 3px;
+	margin-left: 10rem;
+	color: white;
+	font-weight: 400;
+	line-height: 18px;
+}
+.header-wrapper a{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	text-decoration:none;
+	background-color: #e6c56a;
+	padding: 1rem;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	width: 10rem;
+	border-radius: 10px;
+	margin-top: 2rem;
+}
+.container{
+	padding: 3rem 0;
+}
+.container h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+.room-type{
+	width: 95%;
+	height: 348px;
+	margin: 0 auto;
+	margin-top: 3rem;
+}
+.room-type img{
+	float: right;
+	display: inline-block;
+	width: 628px;
+	height: 100%;
+}
+
+.details{
+	display: inline-block;
+	width: 25rem;
+	height: 100%;
+	padding: 0 2rem;
+	border-left: 2px solid;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	float: right;
+	margin-right: 10rem;
+}
+.details h1{
+	margin-top: -5px;
+	font-family: 'Playfair Display', serif;
+	color: #0d1138;
+	font-size: 38px;
+}
+.details p{
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}
+.details a{
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration:none;
+	background-color: #e6c56a;
+	padding: 1rem;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	width: 10rem;
+	border-radius: 10px;
+}
+.testimonial{
+	text-align: center;
+	padding: 3rem 0;
+	width: 100%;
+	color: #0d1138;
+}
+.testi-wrap{
+	width: 50%;
+	margin: 0 auto;
+}
+.testimonial h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.testimonial p{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.testimonial span{
+	font-family: sans-serif;
+}
+.testimonial a{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	text-decoration:none;
+	background-color: #e6c56a;
+	padding: 8px 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	border-radius: 10px;
+}
+.footer{
+	width: 100%;
+	padding: 1.5rem 0;
+	background-color:#0d1138;
+	text-align: center; 
+	font-family:'Roboto',sans-serif;
+	color: white;
+	font-size: 15px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+.testimonial{
+	text-align: center;
+	width: 100%;
+	color: #0d1138;
+}
+.testi-wrap{
+	width: 65%;
+	margin: 0 auto;
+}
+.testimonial h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+}
+.testimonial p{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.testimonial span{
+	font-family: sans-serif;
+}
+.testimonial a{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	text-decoration:none;
+	background-color: #e6c56a;
+	padding: 8px 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.footer{
+	width: 100%;
+	padding: 1.5rem 0;
+	margin: 2rem 0 0 0;
+	background-color:#0d1138;
+	text-align: center; 
+	font-family:'Roboto',sans-serif;
+	color: white;
+	font-size: 15px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+}
